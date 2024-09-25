@@ -1,0 +1,14 @@
+root_path: path/to/image/features
+train_path: train filename
+dev_path: dev filename
+train_batch_size: 32
+aug: 1
+ckpt_path: path/to/save/checkpoint
+scheduler: warmuplinear
+ckpt_limit: 50
+lr: 1e-5
+warmup: 3000
+eval_step: 500
+n_epochs: 500000
+model_base_name: paraphrase-multilingual-MiniLM-L12-v2
+input_size: 1024
